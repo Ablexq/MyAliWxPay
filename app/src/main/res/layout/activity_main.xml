@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xq.myaliwxpay.MainActivity">
+
+    <TextView
+        android:id="@+id/alipay"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="#999999"
+        android:gravity="center"
+        android:text="支付宝支付"
+        android:textColor="#ff0000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/wxpay"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="#999999"
+        android:gravity="center"
+        android:text="微信支付"
+        android:textColor="#ff0000"
+        android:textSize="16sp" />
+</LinearLayout>
